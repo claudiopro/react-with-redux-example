@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
 
 function Counter(props) {
 	const { onIncrement, onDecrement, value } = props;
