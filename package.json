@@ -9,13 +9,15 @@
     "redux": "^3.7.0"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "react-scripts": "1.0.7"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build && gh-pages -d build"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "index.js",
@@ -26,5 +28,6 @@
     "es"
   ],
   "author": "Claudio Procida <claudio.procida@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://claudiopro.github.io/react-with-redux-example"
 }
