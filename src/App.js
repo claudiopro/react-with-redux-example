@@ -22,7 +22,7 @@ function counter(value = 0, action) {
     case "INCREMENT":
       return value + 1;
     case "DECREMENT":
-      if (value > 1) {
+      if (value > 0) {
         return value - 1;
       }
     default:
